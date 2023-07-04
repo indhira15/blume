@@ -4,8 +4,8 @@ import numpy as np
 
 
 # base de datos
-df_redes = pd.read_csv('datos_redes.csv', sep=',', names = ['fecha', 'n_huecos', 'p_suciedad'] )
-df_agua = pd.read_csv('datos_agua.csv', names =  ['fecha','ph', 'oxigeno_disuelto', 'temperatura'])
+df_redes = pd.read_csv('datos_redes.csv', engine='python', sep=',', names = ['fecha', 'n_huecos', 'p_suciedad'] )
+df_agua = pd.read_csv('datos_agua.csv', engine='python', names =  ['fecha','ph', 'oxigeno_disuelto', 'temperatura'])
 
 df_redes = df_redes.iloc[1:,:]
 df_agua = df_agua.iloc[1:,:]
