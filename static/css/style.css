@@ -1,0 +1,36 @@
+
+
+
+
+@media (min-width:768px) {
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper,
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer,
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+     transition:margin-left .3s ease-in-out;
+     margin-left:0;
+    }
+}
+
+.wrapper{
+    min-height: none;
+    margin-right: 20%;
+    margin-left:20%;
+    
+
+}
+
+.content{
+    display: flex;
+    background-color: white;
+}
+.content-header{
+    background-color: white;
+}
+
+.blume_logo{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    margin-bottom: -70px;
+}
